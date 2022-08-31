@@ -4,8 +4,7 @@ name: CI
 
 # Controls when the workflow will run
 on: 
-  schedule:
-    - cron: '13 20 * * *'
+  repository_dispatch:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
